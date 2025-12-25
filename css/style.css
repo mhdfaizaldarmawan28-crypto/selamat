@@ -81,6 +81,7 @@ body {
   width: 90%;
   max-width: 800px;
   border-radius: 20px;
+  
 }
 
 /* HEADER */
@@ -355,7 +356,7 @@ header a {
 
 .video-section {
   padding: 40px 20px;
-  display: flex;
+  display: flexbox;
   justify-content: center;
 }
 
@@ -471,5 +472,15 @@ header a {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+.login-bg {
+  position: fixed;
+  inset: 0;
+  background: 
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("bg-login.jpg") center/cover no-repeat;
+  filter: blur(2px);
+  z-index: -1;
 }
 
